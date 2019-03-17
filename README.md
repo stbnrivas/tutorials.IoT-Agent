@@ -463,7 +463,7 @@ requests to the IoT Agent require two mandatory headers:
 For example within a smart city application you would expect different `fiware-service` headers for different
 departments (e.g. parks, transport, refuse collection etc.) and each `fiware-servicepath` would refer to specific park
 and so on. This would mean that data and devices for each service can be identified and separated as needed, but the
-data would not be siloed - for example data from a **Smart Bin** within a park can be combined with the **GPS Unit** of
+data would not be isolated - for example data from a **Smart Bin** within a park can be combined with the **GPS Unit** of
 a refuse truck to alter the route of the truck in an efficient manner.
 
 The **Smart Bin** and **GPS Unit** are likely to come from different manufacturers and it cannot be guaranteed that
